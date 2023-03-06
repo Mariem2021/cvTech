@@ -11,6 +11,8 @@ import { StyleComponent } from './style/style.component';
 import { ClassComponent } from './class/class.component';
 import { HighlightDirective } from './highlight.directive';
 import { RainbowDirective } from './rainbow.directive';
+import { DefaultImagePipe } from './default-image.pipe';
+import { PremierService } from './premier.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { RainbowDirective } from './rainbow.directive';
     StyleComponent,
     ClassComponent,
     HighlightDirective,
-    RainbowDirective
+    RainbowDirective,
+    DefaultImagePipe
   ],
   imports: [
     BrowserModule,
