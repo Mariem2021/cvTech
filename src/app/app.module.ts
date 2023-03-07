@@ -13,6 +13,9 @@ import { HighlightDirective } from './highlight.directive';
 import { RainbowDirective } from './rainbow.directive';
 import { DefaultImagePipe } from './default-image.pipe';
 import { PremierService } from './premier.service';
+import { EmbaucheComponent } from './embauche/embauche.component';
+import { ROUNTING } from './app.routing';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -25,11 +28,14 @@ import { PremierService } from './premier.service';
     ClassComponent,
     HighlightDirective,
     RainbowDirective,
-    DefaultImagePipe
+    DefaultImagePipe,
+    EmbaucheComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ROUNTING
   ],
   providers: [],
   bootstrap: [AppComponent]

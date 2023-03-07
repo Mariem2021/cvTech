@@ -11,7 +11,7 @@ export class CvService {
   constructor() { 
 
   this.personnes = [
-    new Personne(1, 'Aidara', 'Marie', 36, 'aidara.jpg', 777777, 'Designer'),
+      new Personne(1, 'Aidara', 'Marie', 36, 'aidara.jpg', 777777, 'Designer'),
       new Personne(2, 'Merry', 'Merry', 38, 'marie.jpg', 8888555, 'Developper'),
    ];
   }
